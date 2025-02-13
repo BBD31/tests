@@ -11,7 +11,7 @@ local Settings = {
 local TeamColor = false 
 
 --// SEPARATION
-TeamCheck player = game:GetService("Players").LocalPlayer
+local player = game:GetService("Players").LocalPlayer
 local camera = game:GetService("Workspace").CurrentCamera
 local mouse = player:GetMouse()
 
