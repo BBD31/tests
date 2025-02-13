@@ -7,8 +7,12 @@ local Settings = {
     Tracer_FollowMouse = false,
     Tracers = true
 }
-
-local TeamColor = false 
+local Team_Check = {
+    TeamCheck = false, -- if TeamColor is on this won't matter...
+    Green = Color3.fromRGB(0, 255, 0),
+    Red = Color3.fromRGB(255, 0, 0)
+}
+local TeamColor = false
 
 --// SEPARATION
 local player = game:GetService("Players").LocalPlayer
