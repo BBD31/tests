@@ -7,10 +7,8 @@ local Settings = {
     Tracer_FollowMouse = false,
     Tracers = true
 }
-local Team_Check = {
-    TeamCheck = false, -- if TeamColor is on this won't matter...
-}
-local TeamColor = Team_Check.TeamCheck
+
+local TeamColor = false 
 
 --// SEPARATION
 TeamCheck player = game:GetService("Players").LocalPlayer
