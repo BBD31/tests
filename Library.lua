@@ -84,7 +84,7 @@ local SettingsT = {
 
 }
 
-local Name = "KavoConfig.JSON"
+local Name = "Cfg.JSON"
 
 pcall(function()
 
@@ -298,7 +298,7 @@ end)
     close.ImageRectOffset = Vector2.new(284, 4)
     close.ImageRectSize = Vector2.new(24, 24)
     close.MouseButton1Click:Connect(function()
-	Main.Visible = not Main.Visible 
+	Kavo:ToggleUI()
     end)
 
     MainSide.Name = "MainSide"
