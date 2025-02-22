@@ -70,10 +70,6 @@ local Library = {
 pcall(function() Library.DevicePlatform = InputService:GetPlatform(); end); -- For safety so the UI library doesn't error.
 Library.IsMobile = (Library.DevicePlatform == Enum.Platform.Android or Library.DevicePlatform == Enum.Platform.IOS);
 
-if Library.IsMobile then
-	Library.MinSize = Vector2.new(550, 200); -- Make UI little bit smaller.
-end
-
 local RainbowStep = 0
 local Hue = 0
 
